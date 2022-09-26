@@ -5,6 +5,7 @@ import MUiCheckBox from './Components/MUiCheckBox';
 import MUIFloatingActionButton from './Components/MUIFloatingActionButton';
 import MUIRating from './Components/MUIRating';
 import RadioButtons from './Components/RadioButtons';
+import Select from './Components/Select';
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <MUiCheckBox />
       <MUIFloatingActionButton />
       <RadioButtons />
-      <MUIRating/>
+      <MUIRating />
+      <Select/>
     </div>
   );
 }
