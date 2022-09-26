@@ -2,6 +2,7 @@ import { Avatar } from '@mui/material';
 import './App.css';
 import Avater from './Components/Avater';
 import MaterialUI from './Components/MaterialUI';
+import MUIBadge from './Components/MUIBadge';
 import MuiButton from './Components/MuiButton';
 import MUiCheckBox from './Components/MUiCheckBox';
 import MUIFloatingActionButton from './Components/MUIFloatingActionButton';
@@ -23,7 +24,8 @@ function App() {
       <Select />
       <MUISwitch />
       <TextField1 />
-      <Avater/>
+      <Avater />
+      <MUIBadge/>
     </div>
   );
 }
