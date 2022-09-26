@@ -2,6 +2,7 @@ import { Avatar } from '@mui/material';
 import './App.css';
 import Avater from './Components/Avater';
 import MediaCard from './Components/Card';
+import HelperText from './Components/DateTimePicker';
 import SubheaderDividers from './Components/Divider';
 import SwipeableEdgeDrawer from './Components/Drawer1';
 import TemporaryDrawer from './Components/Drawes';
@@ -19,6 +20,9 @@ import BasicTable from './Components/MUITables';
 import MUIToolTip from './Components/MUIToolTip';
 import RadioButtons from './Components/RadioButtons';
 import Select from './Components/Select';
+import SpeedDialTooltipOpen from './Components/SpeedDial';
+import SimpleGrow from './Components/Stepper';
+import SwipeableTextMobileStepper from './Components/Stepper';
 import TextField1 from './Components/TextField';
 import CustomizedSnackbars from './Components/Toast';
 
@@ -44,7 +48,10 @@ function App() {
       <CustomizedSnackbars />
       <MediaCard />
       <TemporaryDrawer />
-      <LongMenu/>
+      <LongMenu />
+      <SpeedDialTooltipOpen />
+      <SimpleGrow />
+      <HelperText/>
     </div>
   );
 }

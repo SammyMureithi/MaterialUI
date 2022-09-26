@@ -12,7 +12,7 @@ export default function MediaCard() {
       <CardMedia
         component="img"
         height="140"
-        image="../public/Images/bg1.jpg"
+        image="https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg"
         alt="green iguana"
       />
       <CardContent>
