@@ -12,6 +12,7 @@ import MuiButton from './Components/MuiButton';
 import MUiCheckBox from './Components/MUiCheckBox';
 import MUIFloatingActionButton from './Components/MUIFloatingActionButton';
 import FolderList from './Components/MUIList';
+import LongMenu from './Components/MUIMenu';
 import MUIRating from './Components/MUIRating';
 import MUISwitch from './Components/MUISwitch';
 import BasicTable from './Components/MUITables';
@@ -43,7 +44,7 @@ function App() {
       <CustomizedSnackbars />
       <MediaCard />
       <TemporaryDrawer />
-      <SwipeableEdgeDrawer/>
+      <LongMenu/>
     </div>
   );
 }
