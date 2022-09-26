@@ -7,6 +7,7 @@ import MUIRating from './Components/MUIRating';
 import MUISwitch from './Components/MUISwitch';
 import RadioButtons from './Components/RadioButtons';
 import Select from './Components/Select';
+import TextField1 from './Components/TextField';
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
       <RadioButtons />
       <MUIRating />
       <Select />
-      <MUISwitch/>
+      <MUISwitch />
+      <TextField1/>
     </div>
   );
 }
