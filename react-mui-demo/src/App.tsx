@@ -7,6 +7,7 @@ import MUIBadge from './Components/MUIBadge';
 import MuiButton from './Components/MuiButton';
 import MUiCheckBox from './Components/MUiCheckBox';
 import MUIFloatingActionButton from './Components/MUIFloatingActionButton';
+import FolderList from './Components/MUIList';
 import MUIRating from './Components/MUIRating';
 import MUISwitch from './Components/MUISwitch';
 import RadioButtons from './Components/RadioButtons';
@@ -27,7 +28,8 @@ function App() {
       <TextField1 />
       <Avater />
       <MUIBadge />
-      <SubheaderDividers/>
+      <SubheaderDividers />
+      <FolderList/>
     </div>
   );
 }
