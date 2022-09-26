@@ -1,4 +1,6 @@
+import { Avatar } from '@mui/material';
 import './App.css';
+import Avater from './Components/Avater';
 import MaterialUI from './Components/MaterialUI';
 import MuiButton from './Components/MuiButton';
 import MUiCheckBox from './Components/MUiCheckBox';
@@ -20,7 +22,8 @@ function App() {
       <MUIRating />
       <Select />
       <MUISwitch />
-      <TextField1/>
+      <TextField1 />
+      <Avater/>
     </div>
   );
 }
