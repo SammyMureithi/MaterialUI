@@ -3,6 +3,7 @@ import MaterialUI from './Components/MaterialUI';
 import MuiButton from './Components/MuiButton';
 import MUiCheckBox from './Components/MUiCheckBox';
 import MUIFloatingActionButton from './Components/MUIFloatingActionButton';
+import RadioButtons from './Components/RadioButtons';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <h1>Hello</h1>
       <MuiButton />
       <MUiCheckBox />
-      <MUIFloatingActionButton/>
+      <MUIFloatingActionButton />
+      <RadioButtons/>
     </div>
   );
 }
