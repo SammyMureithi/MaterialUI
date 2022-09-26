@@ -3,6 +3,7 @@ import './App.css';
 import Avater from './Components/Avater';
 import SubheaderDividers from './Components/Divider';
 import MaterialUI from './Components/MaterialUI';
+import BasicAlerts from './Components/MUIAlert';
 import MUIBadge from './Components/MUIBadge';
 import MuiButton from './Components/MuiButton';
 import MUiCheckBox from './Components/MUiCheckBox';
@@ -15,6 +16,7 @@ import MUIToolTip from './Components/MUIToolTip';
 import RadioButtons from './Components/RadioButtons';
 import Select from './Components/Select';
 import TextField1 from './Components/TextField';
+import CustomizedSnackbars from './Components/Toast';
 
 function App() {
   return (
@@ -33,7 +35,9 @@ function App() {
       <SubheaderDividers />
       <FolderList />
       <BasicTable />
-      <MUIToolTip/>
+      <MUIToolTip />
+      <BasicAlerts />
+      <CustomizedSnackbars/>
     </div>
   );
 }
