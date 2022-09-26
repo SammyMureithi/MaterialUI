@@ -10,6 +10,7 @@ import MUIFloatingActionButton from './Components/MUIFloatingActionButton';
 import FolderList from './Components/MUIList';
 import MUIRating from './Components/MUIRating';
 import MUISwitch from './Components/MUISwitch';
+import BasicTable from './Components/MUITables';
 import RadioButtons from './Components/RadioButtons';
 import Select from './Components/Select';
 import TextField1 from './Components/TextField';
@@ -29,7 +30,8 @@ function App() {
       <Avater />
       <MUIBadge />
       <SubheaderDividers />
-      <FolderList/>
+      <FolderList />
+      <BasicTable/>
     </div>
   );
 }
