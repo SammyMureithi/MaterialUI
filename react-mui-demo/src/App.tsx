@@ -3,6 +3,8 @@ import './App.css';
 import Avater from './Components/Avater';
 import MediaCard from './Components/Card';
 import SubheaderDividers from './Components/Divider';
+import SwipeableEdgeDrawer from './Components/Drawer1';
+import TemporaryDrawer from './Components/Drawes';
 import MaterialUI from './Components/MaterialUI';
 import BasicAlerts from './Components/MUIAlert';
 import MUIBadge from './Components/MUIBadge';
@@ -39,7 +41,9 @@ function App() {
       <MUIToolTip />
       <BasicAlerts />
       <CustomizedSnackbars />
-      <MediaCard/>
+      <MediaCard />
+      <TemporaryDrawer />
+      <SwipeableEdgeDrawer/>
     </div>
   );
 }
