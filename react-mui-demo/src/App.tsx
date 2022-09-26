@@ -1,6 +1,7 @@
 import { Avatar } from '@mui/material';
 import './App.css';
 import Avater from './Components/Avater';
+import MediaCard from './Components/Card';
 import SubheaderDividers from './Components/Divider';
 import MaterialUI from './Components/MaterialUI';
 import BasicAlerts from './Components/MUIAlert';
@@ -37,7 +38,8 @@ function App() {
       <BasicTable />
       <MUIToolTip />
       <BasicAlerts />
-      <CustomizedSnackbars/>
+      <CustomizedSnackbars />
+      <MediaCard/>
     </div>
   );
 }
