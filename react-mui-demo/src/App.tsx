@@ -11,6 +11,7 @@ import FolderList from './Components/MUIList';
 import MUIRating from './Components/MUIRating';
 import MUISwitch from './Components/MUISwitch';
 import BasicTable from './Components/MUITables';
+import MUIToolTip from './Components/MUIToolTip';
 import RadioButtons from './Components/RadioButtons';
 import Select from './Components/Select';
 import TextField1 from './Components/TextField';
@@ -31,7 +32,8 @@ function App() {
       <MUIBadge />
       <SubheaderDividers />
       <FolderList />
-      <BasicTable/>
+      <BasicTable />
+      <MUIToolTip/>
     </div>
   );
 }
