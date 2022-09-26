@@ -1,6 +1,7 @@
 import { Avatar } from '@mui/material';
 import './App.css';
 import Avater from './Components/Avater';
+import SubheaderDividers from './Components/Divider';
 import MaterialUI from './Components/MaterialUI';
 import MUIBadge from './Components/MUIBadge';
 import MuiButton from './Components/MuiButton';
@@ -25,7 +26,8 @@ function App() {
       <MUISwitch />
       <TextField1 />
       <Avater />
-      <MUIBadge/>
+      <MUIBadge />
+      <SubheaderDividers/>
     </div>
   );
 }
